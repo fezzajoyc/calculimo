@@ -4,7 +4,7 @@ const en = {
   brand: "Calculimo",
   tagline: "Every percentage runs in your browser.",
   metaDesc:
-    "Free percentage and ratio calculators: X% of Y, percent change, reverse percentages, stacked discounts, tip splitting and ratios. Everything runs in your browser — your numbers never leave your device.",
+    "Free percentage and ratio calculators: X% of Y, percent change, reverse percentages, stacked discounts, tip splitting and ratios. 100% in your browser.",
 
   nav: {
     tools: "All tools",
