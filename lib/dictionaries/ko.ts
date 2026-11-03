@@ -21,6 +21,10 @@ const ko: Dictionary = {
     heroSub:
       "Calculimo는 백분율과 비율 계산기 모음입니다: 백분율 곱셈, 변화율, 역산, 누적 할인, 팁 나누기, 비율. 모두 브라우저에서 — 빠르고, 무료이고, 가입 없이, 아무것도 전송하지 않습니다.",
     browseAll: "전체 도구 보기",
+    pinned: "고정됨",
+    pin: "상단에 고정",
+    unpin: "고정 해제",
+    popular: "인기 도구",
     categoriesTitle: "카테고리",
     featuredTitle: "인기 도구",
     trustLocal: "파일은 기기에만 보관됩니다",
@@ -79,6 +83,8 @@ const ko: Dictionary = {
     howTo: "사용 방법",
     faq: "자주 묻는 질문",
     related: "관련 도구",
+    nextStep: "다음 단계",
+    copyLink: "링크 복사",
     privacyNote:
       "이 도구는 전부 브라우저 안에서 실행됩니다. 데이터는 기기를 떠나지 않으며 어떤 서버로도 업로드되지 않습니다.",
     inCategory: "{category}의 다른 도구",

@@ -19,6 +19,10 @@ const vi = {
     heroSub:
       "Calculimo là bộ máy tính phần trăm và tỉ lệ: phần trăm của một số, mức thay đổi, phần trăm ngược, giảm giá chồng, chia tiền tip và tỉ lệ. Tất cả trong trình duyệt — nhanh, miễn phí, không cần đăng ký, không gửi đi đâu.",
     browseAll: "Xem tất cả công cụ",
+    pinned: "Đã ghim",
+    pin: "Ghim lên đầu",
+    unpin: "Bỏ ghim",
+    popular: "Phổ biến ngay bây giờ",
     categoriesTitle: "Danh mục",
     featuredTitle: "Công cụ phổ biến",
     trustLocal: "File luôn ở lại thiết bị của bạn",
@@ -77,6 +81,8 @@ const vi = {
     howTo: "Cách sử dụng",
     faq: "Câu hỏi thường gặp",
     related: "Công cụ liên quan",
+    nextStep: "Bước tiếp theo",
+    copyLink: "Sao chép liên kết",
     privacyNote:
       "Công cụ này chạy hoàn toàn trong trình duyệt của bạn. Dữ liệu không bao giờ rời khỏi thiết bị — không được tải lên bất kỳ máy chủ nào.",
     inCategory: "Xem thêm trong {category}",

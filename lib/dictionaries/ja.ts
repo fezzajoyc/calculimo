@@ -19,6 +19,10 @@ const ja: Dictionary = {
     heroSub:
       "Calculimo はパーセントと比率の計算集:X% of Y・変化率・逆算・重ね割引・チップ割り勘・比例。すべてブラウザ内——高速、無料、登録不要、どこにも送信しません。",
     browseAll: "すべてのツールを見る",
+    pinned: "ピン留め",
+    pin: "トップに固定",
+    unpin: "固定を解除",
+    popular: "人気のツール",
     categoriesTitle: "カテゴリー",
     featuredTitle: "人気のツール",
     trustLocal: "ファイルは端末内に留存",
@@ -74,6 +78,8 @@ const ja: Dictionary = {
     howTo: "使い方",
     faq: "よくある質問",
     related: "関連ツール",
+    nextStep: "次のステップ",
+    copyLink: "リンクをコピー",
     privacyNote:
       "このツールは完全にブラウザ内で動作します。データは端末から出ず、サーバーへアップロードされることはありません。",
     inCategory: "{category}のその他のツール",

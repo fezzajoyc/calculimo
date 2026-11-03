@@ -19,6 +19,10 @@ const it = {
     heroSub:
       "Calculimo è un insieme di calcolatori di percentuali e proporzioni: percentuale di, variazione, percentuale inversa, sconti cumulati, mancia e proporzioni. Tutto nel tuo browser — veloce, gratis, senza registrazione, nessun invio.",
     browseAll: "Sfoglia tutti gli strumenti",
+    pinned: "Fissati",
+    pin: "Fissa in alto",
+    unpin: "Rimuovi dai fissati",
+    popular: "Popolari adesso",
     categoriesTitle: "Categorie",
     featuredTitle: "Strumenti popolari",
     trustLocal: "I file restano sul tuo dispositivo",
@@ -77,6 +81,8 @@ const it = {
     howTo: "Come si usa",
     faq: "Domande frequenti",
     related: "Strumenti correlati",
+    nextStep: "Passaggi successivi",
+    copyLink: "Copia link",
     privacyNote:
       "Questo strumento gira interamente nel tuo browser. I tuoi dati non lasciano mai il dispositivo: non vengono caricati su nessun server.",
     inCategory: "Altri in {category}",
