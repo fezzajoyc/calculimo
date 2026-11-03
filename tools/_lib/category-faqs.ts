@@ -10,74 +10,29 @@ type Faq = { q: string; a: string };
 
 const GLOBAL: Partial<Record<Locale, Faq[]>> = {
   en: [
-    {
-      q: "Is this tool free to use?",
-      a: "Yes, completely free — no signup, no subscription, no daily limits, and no watermarks on the output.",
-    },
-    {
-      q: "Does my data leave my device?",
-      a: "No. The tool runs entirely in your browser with JavaScript. Nothing you type or upload is sent to a server, so it even works offline once the page has loaded.",
-    },
-    {
-      q: "Which browsers does it work in?",
-      a: "Any modern browser — Chrome, Firefox, Safari and Edge on desktop and mobile. No plugins or extensions are needed.",
-    },
+    { q: "Do I need an account to use Calculimo?", a: "No — Calculimo is free with no signup. Every calculation about percentage and discount math runs right in your browser and nothing about you is stored." },
+    { q: "How are the results calculated?", a: "All Calculimo tools apply the standard formulas shown on each page to the numbers you type. Nothing comes from a cached database, so the result is exactly as current as your inputs." },
+    { q: "Does Calculimo keep my financial data?", a: "No. percentage and discount math math happens locally in JavaScript and is never transmitted — close the tab and it is gone." },
   ],
   zh: [
-    {
-      q: "这个工具免费吗?",
-      a: "完全免费 — 无需注册、没有订阅、无每日限额,输出不带水印。",
-    },
-    {
-      q: "我的数据会传到服务器吗?",
-      a: "不会。工具完全在浏览器里用 JavaScript 运行,输入的文件和内容不会发送到任何服务器;页面加载后断网也能用。",
-    },
-    {
-      q: "支持哪些浏览器?",
-      a: "所有现代浏览器 — Chrome、Firefox、Safari、Edge,桌面和移动端通用,无需安装插件。",
-    },
+    { q: "使用Calculimo需要注册吗?", a: "不需要 — Calculimo完全免费、无需注册。所有关于百分比与折扣的计算都在浏览器内完成,不会存储你的任何信息。" },
+    { q: "计算结果是怎么来的?", a: "Calculimo的每个工具都把页面上给出的标准公式应用到你输入的数字上,不读取任何缓存数据库,结果只取决于你的输入。" },
+    { q: "我的财务数据会被保存吗?", a: "不会。百分比与折扣计算全部在本地 JavaScript 中进行,数据不会发出——关掉页面即消失。" },
   ],
   ja: [
-    {
-      q: "このツールは無料ですか?",
-      a: "完全無料です。登録・課金・回数制限はなく、出力にウォーターマークも入りません。",
-    },
-    {
-      q: "入力したデータは外部に送信されますか?",
-      a: "送信されません。すべてブラウザ内の JavaScript で処理されるため、入力・ファイルはサーバーに送られず、読み込み後はオフラインでも動作します。",
-    },
-    {
-      q: "対応ブラウザは?",
-      a: "Chrome / Firefox / Safari / Edge の最新版(デスクトップ・モバイル共通)。プラグインや拡張機能は不要です。",
-    },
+    { q: "Calculimoの利用にアカウントは必要ですか?", a: "不要です。Calculimoは登録不要で完全無料。percentage and discount mathに関する計算はすべてブラウザ内で実行され、入力情報は保存されません。" },
+    { q: "計算結果はどう算出されますか?", a: "各ページに明示された標準的な計算式を、入力した数値にそのまま適用しています。キャッシュされたデータベースには依存せず、結果は入力値のみで決まります。" },
+    { q: "入力した金額データは保存されますか?", a: "保存されません。percentage and discount mathの計算はローカルの JavaScript で行われ、送信も保存もありません。タブを閉じれば消えます。" },
   ],
   es: [
-    {
-      q: "¿Esta herramienta es gratis?",
-      a: "Sí, totalmente gratis: sin registro, sin suscripción, sin límites diarios y sin marcas de agua.",
-    },
-    {
-      q: "¿Mis datos salen de mi dispositivo?",
-      a: "No. Todo se procesa con JavaScript en tu navegador; nada se envía a un servidor. Incluso funciona sin conexión una vez cargada la página.",
-    },
-    {
-      q: "¿En qué navegadores funciona?",
-      a: "Cualquier navegador moderno: Chrome, Firefox, Safari y Edge, en escritorio y móvil. Sin plugins ni extensiones.",
-    },
+    { q: "¿Necesito una cuenta para usar Calculimo?", a: "No — Calculimo es gratis y sin registro. Todos los cálculos sobre percentage and discount math se ejecutan en tu navegador y no se guarda nada sobre ti." },
+    { q: "¿Cómo se calculan los resultados?", a: "Las herramientas de Calculimo aplican las fórmulas estándar de cada página a los números que introduces. Nada proviene de una base de datos cacheada: el resultado depende solo de tus datos." },
+    { q: "¿Se guardan mis datos financieros?", a: "No. El cálculo de percentage and discount math ocurre localmente en JavaScript y nunca se transmite — cierra la pestaña y desaparece." },
   ],
   pt: [
-    {
-      q: "Esta ferramenta é gratuita?",
-      a: "Sim, totalmente gratuita — sem cadastro, sem assinatura, sem limites diários e sem marcas d'água.",
-    },
-    {
-      q: "Meus dados saem do dispositivo?",
-      a: "Não. A ferramenta roda inteiramente no seu navegador com JavaScript; nada é enviado a servidores e funciona até offline depois de carregada.",
-    },
-    {
-      q: "Quais navegadores são suportados?",
-      a: "Qualquer navegador moderno — Chrome, Firefox, Safari e Edge, no desktop e no celular. Nenhum plugin necessário.",
-    },
+    { q: "Preciso de uma conta para usar o Calculimo?", a: "Não — o Calculimo é gratuito e sem cadastro. Todos os cálculos sobre percentage and discount math rodam no seu navegador e nada sobre você é armazenado." },
+    { q: "Como os resultados são calculados?", a: "As ferramentas do Calculimo aplicam as fórmulas padrão de cada página aos números que você digita. Nada vem de um banco de dados em cache — o resultado depende só das suas entradas." },
+    { q: "Meus dados financeiros ficam salvos?", a: "Não. O cálculo de percentage and discount math acontece localmente em JavaScript e nunca é transmitido — feche a aba e tudo desaparece." },
   ],
 };
 
