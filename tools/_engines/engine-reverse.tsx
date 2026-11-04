@@ -104,7 +104,7 @@ export function ReverseEngine() {
                 type="button"
                 aria-pressed={dir === "increase"}
                 onClick={() => setDir("increase")}
-                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${dir === "increase" ? "border-transparent bg-[var(--color-ink)] text-white" : "hairline"}`}
+                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${dir === "increase" ? "border-transparent bg-[var(--color-ink)] text-white dark:bg-white dark:text-[#1d1d1f]" : "hairline"}`}
               >
                 ↗ {pick(locale, S.inc)}
               </button>
@@ -112,7 +112,7 @@ export function ReverseEngine() {
                 type="button"
                 aria-pressed={dir === "decrease"}
                 onClick={() => setDir("decrease")}
-                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${dir === "decrease" ? "border-transparent bg-[var(--color-ink)] text-white" : "hairline"}`}
+                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${dir === "decrease" ? "border-transparent bg-[var(--color-ink)] text-white dark:bg-white dark:text-[#1d1d1f]" : "hairline"}`}
               >
                 ↘ {pick(locale, S.dec)}
               </button>

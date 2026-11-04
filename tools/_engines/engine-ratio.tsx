@@ -166,7 +166,7 @@ export function RatioEngine() {
                     type="button"
                     aria-pressed={unknown === o.id}
                     onClick={() => setUnknown(o.id)}
-                    className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${unknown === o.id ? "border-transparent bg-[var(--color-ink)] text-white" : "hairline hover:bg-[var(--color-surface)]"}`}
+                    className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${unknown === o.id ? "border-transparent bg-[var(--color-ink)] text-white dark:bg-white dark:text-[#1d1d1f]" : "hairline hover:bg-[var(--color-surface)]"}`}
                   >
                     {o.label}
                   </button>
@@ -200,10 +200,10 @@ export function RatioEngine() {
             </Field>
             <Field label={pick(locale, S.knownSide)}>
               <div className="flex gap-2">
-                <button type="button" aria-pressed={known === "w"} onClick={() => setKnown("w")} className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${known === "w" ? "border-transparent bg-[var(--color-ink)] text-white" : "hairline"}`}>
+                <button type="button" aria-pressed={known === "w"} onClick={() => setKnown("w")} className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${known === "w" ? "border-transparent bg-[var(--color-ink)] text-white dark:bg-white dark:text-[#1d1d1f]" : "hairline"}`}>
                   {pick(locale, S.width)}
                 </button>
-                <button type="button" aria-pressed={known === "h"} onClick={() => setKnown("h")} className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${known === "h" ? "border-transparent bg-[var(--color-ink)] text-white" : "hairline"}`}>
+                <button type="button" aria-pressed={known === "h"} onClick={() => setKnown("h")} className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${known === "h" ? "border-transparent bg-[var(--color-ink)] text-white dark:bg-white dark:text-[#1d1d1f]" : "hairline"}`}>
                   {pick(locale, S.height)}
                 </button>
               </div>

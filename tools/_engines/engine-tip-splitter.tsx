@@ -87,7 +87,7 @@ export function TipSplitterEngine() {
                 type="button"
                 aria-pressed={tipPct === String(p)}
                 onClick={() => setTipPct(String(p))}
-                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${tipPct === String(p) ? "border-transparent bg-[var(--color-ink)] text-white" : "hairline hover:bg-[var(--color-surface)]"}`}
+                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${tipPct === String(p) ? "border-transparent bg-[var(--color-ink)] text-white dark:bg-white dark:text-[#1d1d1f]" : "hairline hover:bg-[var(--color-surface)]"}`}
               >
                 {p}%
               </button>
@@ -109,7 +109,7 @@ export function TipSplitterEngine() {
                 role="tab"
                 aria-selected={rounding === o.id}
                 onClick={() => setRounding(o.id)}
-                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${rounding === o.id ? "border-transparent bg-[var(--color-ink)] text-white" : "hairline hover:bg-[var(--color-surface)]"}`}
+                className={`rounded-full border px-3.5 py-1.5 text-[13px] font-medium ${rounding === o.id ? "border-transparent bg-[var(--color-ink)] text-white dark:bg-white dark:text-[#1d1d1f]" : "hairline hover:bg-[var(--color-surface)]"}`}
               >
                 {o.label}
               </button>
